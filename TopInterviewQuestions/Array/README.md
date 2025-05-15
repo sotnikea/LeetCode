@@ -4,4 +4,4 @@
 - [Best Time to Buy and Sell Stock II](./BestTimeToBuyAndSellStockII)
 - [Rotate Array](./RotateArray)
 - [Contains Duplicate](./ContainsDuplicate)
-
+- [Single Number](./SingleNumber)
