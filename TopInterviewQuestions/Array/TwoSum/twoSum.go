@@ -26,7 +26,6 @@ func twoSum(nums []int, target int) []int {
 		}
 	}
 	return []int{num1, num2}
-
 }
 
 func main() {
