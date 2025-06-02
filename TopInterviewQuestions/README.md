@@ -1,7 +1,7 @@
 ## Categories
 
 - [Array](./Array)
-- [String](./String)
+- [Strings](./Strings)
 - [Linked List](./LinkedList)
 - [Trees](./Trees)
 - [Sorting and Searching](./SortingAndSearching)
