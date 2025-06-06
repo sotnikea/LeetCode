@@ -31,5 +31,5 @@ Implementation Notes
 - For each element within a layer, its four corresponding sides are identified and rotated in place using pointer assignments.
 - The core rotation relies on computing symmetrical positions relative to the current layer and the matrix size.
 
-Time Complexity: O(log(n))
+Time Complexity: O(n^2/4)
 Space Complexity: O(1)
