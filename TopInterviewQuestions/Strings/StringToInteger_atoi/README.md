@@ -91,4 +91,14 @@ Reading stops at the first non-digit character 'w'.
 - s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
 
 ## Solution
+This implementation simulates the behavior of the standard atoi function. It uses a flag (isPrechecked) to track whether leading space and sign have already been handled, and processes characters sequentially:
+- Skips initial whitespaces until a non-space or sign is encountered
+- Handles optional '+' or '-' sign
+- Converts only numeric digits (0 to 9)
+- Stops parsing when a non-digit is found
+- Accumulates result in an int64 to prevent overflow during computation
+- Applies final sign and clamps the result to int32 limits
+
+Time: O(n), where n is the length of the input string    
+Space: O(1), constant memory usage
 
