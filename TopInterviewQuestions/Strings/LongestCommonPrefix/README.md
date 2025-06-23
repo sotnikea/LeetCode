@@ -26,4 +26,8 @@ Explanation: There is no common prefix among the input strings.
 - strs[i] consists of only lowercase English letters if it is non-empty.
 
 ## Solution
-
+This implementation handles edge cases such as empty arrays or single-element arrays.    
+It iteratively compares each character of the first string with the corresponding characters of the remaining strings.    
+As soon as a mismatch is found or the shortest string ends, the loop stops and returns the prefix accumulated so far.   
+Time complexity: O(n * m) — where n is the number of strings and m is the length of the shortest string.    
+Space complexity: O(1) — no extra space is used beyond variables.
