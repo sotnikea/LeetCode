@@ -42,3 +42,8 @@ Explanation: You are given the third node with value 1, the linked list should b
 - The node to be deleted is in the list and is not a tail node.
 
 ## Solution
+This solution efficiently deletes a node from a singly-linked list when only a reference to that node is provided, without access to the head of the list.   
+It works by copying the value of the next node into the current node and bypassing the next node by updating the current node’s next pointer.   
+This approach ensures that the node's original value is no longer present in the list and the total number of nodes decreases by one.   
+Time complexity: O(1) — constant time operation regardless of list size.   
+Space complexity: O(1) — no additional space is used.

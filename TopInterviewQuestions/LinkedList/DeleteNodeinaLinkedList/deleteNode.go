@@ -18,7 +18,8 @@ func (l *ListNode) Append(val int) *ListNode {
 }
 
 func deleteNode(node *ListNode) {
-	node = node.Next
+	node.Val = node.Next.Val
+	node.Next = node.Next.Next
 }
 
 func main() {
