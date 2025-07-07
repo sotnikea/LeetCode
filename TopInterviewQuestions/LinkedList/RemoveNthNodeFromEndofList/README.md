@@ -28,6 +28,13 @@ Output: [1]
 - 0 <= Node.val <= 100
 - 1 <= n <= sz
 
-# Follow up: Could you do this in one pass?
+# Follow up:   
+Could you do this in one pass?
 
-## Solution
+## Solution   
+This implementation removes the nth node from the end of a singly-linked list in two passes within a single loop.   
+It traverses the list while tracking the current position and dynamically determines when to start following the node that precedes the target node to be removed.   
+If the node to delete is the head of the list, the algorithm correctly returns the new head.   
+Edge cases such as single-element lists and removing the last node are explicitly handled.   
+Time complexity: O(sz) — one full traversal of the list.   
+Space complexity: O(1) — constant extra space.   
